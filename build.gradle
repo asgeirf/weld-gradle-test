@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jboss.weld.se:weld-se:2.1.0.Final'
+    testCompile "junit:junit:4.11"
+}
